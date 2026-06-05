@@ -10,18 +10,16 @@
     
     "alarm_count": "https://gilsantos22.github.io/ManufacturingMachineState/alarm_count.html",
     "alarm_last_ms": "https://GilSantos22.github.io/ManufacturingMachineState/alarm_last_ms.html",
-    "alarm_total_ms": "https://raw.githubusercontent.com/TEU_USER/NOME_DO_REPO/main/context.json#alarm_total_ms",
+    "alarm_total_ms": "https://GilSantos22.github.io/ManufacturingMachineState/alarm_total_ms.html",
     
-    "contador": "https://raw.githubusercontent.com/TEU_USER/NOME_DO_REPO/main/context.json#contador",
+    "contador": "https://GilSantos22.github.io/ManufacturingMachineState/contador.html",
     
-    "estado_off_count": "https://raw.githubusercontent.com/TEU_USER/NOME_DO_REPO/main/context.json#estado_off_count",
-    "estado_off_ms": "https://raw.githubusercontent.com/TEU_USER/NOME_DO_REPO/main/context.json#estado_off_ms",
-    "estado_on_count": "https://raw.githubusercontent.com/TEU_USER/NOME_DO_REPO/main/context.json#estado_on_count",
-    "estado_on_ms": "https://raw.githubusercontent.com/TEU_USER/NOME_DO_REPO/main/context.json#estado_on_ms",
-    
-    "machine_id": "https://raw.githubusercontent.com/TEU_USER/NOME_DO_REPO/main/context.json#machine_id",
-    "plc_id": "https://raw.githubusercontent.com/TEU_USER/NOME_DO_REPO/main/context.json#plc_id",
-    "rpm10": "https://raw.githubusercontent.com/TEU_USER/NOME_DO_REPO/main/context.json#rpm10",
-    "ts": "https://raw.githubusercontent.com/TEU_USER/NOME_DO_REPO/main/context.json#ts"
+    "estado_off_count": "https://GilSantos22.github.io/ManufacturingMachineState/estado_off_count.html",
+    "estado_off_ms": "https://GilSantos22.github.io/ManufacturingMachineState/estado_off_ms.html",
+    "estado_on_count": "https://GilSantos22.github.io/ManufacturingMachineState/estado_on_count.html",
+    "estado_on_ms": "https://GilSantos22.github.io/ManufacturingMachineState/estado_on_ms.html",
+    "ManufacturingController" : "https://GilSantos22.github.io/ManufacturingMachineState/ManufacturingController.html"
+    "currentspeed": "https://GilSantos22.github.io/ManufacturingMachineState/currentspeed.html",
+    "ts": "https://GilSantos22.github.io/ManufacturingMachineState/ts.html"
   }
 }
