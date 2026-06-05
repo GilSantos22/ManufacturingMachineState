@@ -1,3 +1,13 @@
+<style>
+div.blueTable { border: 1px solid #1C6EA4; background-color: #EEEEEE; width: 100%; text-align: left; border-collapse: collapse; margin-bottom: 20px; }
+.divTable.blueTable .divTableCell, .divTable.blueTable .divTableHead { border: 1px solid #AAAAAA; padding: 5px 4px; }
+.divTable.blueTable .divTableBody .divTableCell { font-size: 13px; }
+.divTable.blueTable .divTableRow:nth-child(even) { background: #D0E4F5; }
+.divTable.blueTable .divTableHeading { background: #1C6EA4; background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%); border-bottom: 2px solid #444444; }
+.divTable.blueTable .divTableHeading .divTableHead { font-size: 15px; font-weight: bold; color: #FFFFFF; border-left: 2px solid #D0E4F5; }
+.divTable.blueTable .divTableHeading .divTableHead:first-child { border-left: none; }
+.divTable{ display: table; } .divTableRow { display: table-row; } .divTableHeading { display: table-header-group;} .divTableCell, .divTableHead { display: table-cell;}
+</style>
 <div class="divTable blueTable">
   <div class="divTableHeading"><div class="divTableRow"><div class="divTableHead"><h1>estado_off_count</h1></div></div></div>
   <div class="divTableRow"><div class="divTableCell"><h2>Definição</h2>Contador de quantas vezes a máquina transitou para o estado de paragem (OFF).<br></div></div>
