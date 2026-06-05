@@ -9,7 +9,7 @@
     "ManufacturingMachineOperation": "https://smartdatamodels.org/dataModel.ManufacturingMachine/ManufacturingMachineOperation",
     
     "alarm_count": "https://gilsantos22.github.io/ManufacturingMachineState/alarm_count.html",
-    "alarm_last_ms": "https://raw.githubusercontent.com/TEU_USER/NOME_DO_REPO/main/context.json#alarm_last_ms",
+    "alarm_last_ms": "https://GilSantos22.github.io/ManufacturingMachineState/alarm_last_ms.html",
     "alarm_total_ms": "https://raw.githubusercontent.com/TEU_USER/NOME_DO_REPO/main/context.json#alarm_total_ms",
     
     "contador": "https://raw.githubusercontent.com/TEU_USER/NOME_DO_REPO/main/context.json#contador",
