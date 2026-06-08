@@ -4,7 +4,7 @@
     "id": "@id",
     "ngsi-ld": "https://uri.etsi.org/ngsi-ld/",
     
-    "ManufacturingMachineState": "https://smartdatamodels.org/dataModel.ManufacturingMachine/ManufacturingMachineState",
+    "ManufacturingMachineState": "https://GilSantos22.github.io/ManufacturingMachineState/ManufacturingMachineState.html",
     
     "alarm_count": "https://GilSantos22.github.io/ManufacturingMachineState/alarm_count.html",
     "alarm_last_ms": "https://GilSantos22.github.io/ManufacturingMachineState/alarm_last_ms.html",
