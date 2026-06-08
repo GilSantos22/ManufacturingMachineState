@@ -22,10 +22,7 @@
     "machine_id": "https://GilSantos22.github.io/ManufacturingMachineState/machine_id.html",
     "timestamp": "https://GilSantos22.github.io/ManufacturingMachineState/timestamp.html",
     
-    "plc_id": "https://GilSantos22.github.io/ManufacturingMachineState/plc_id.html",
-    
     "ManufacturingController": "https://GilSantos22.github.io/ManufacturingMachineState/ManufacturingController.html",
-    "name": "https://GilSantos22.github.io/ManufacturingMachineState/ManufacturingController.html",
-    "brand": "https://GilSantos22.github.io/ManufacturingMachineState/ManufacturingController.html"
+  
   }
 }
