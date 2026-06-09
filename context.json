@@ -6,17 +6,17 @@
     
     "ManufacturingMachineState": "https://GilSantos22.github.io/ManufacturingMachineState/ManufacturingMachineState.html",
     
-    "alarm_count": "https://GilSantos22.github.io/ManufacturingMachineState/alarm_count.html",
-    "alarm_last_ms": "https://GilSantos22.github.io/ManufacturingMachineState/alarm_last_ms.html",
-    "alarm_total_ms": "https://GilSantos22.github.io/ManufacturingMachineState/alarm_total_ms.html",
+    "alarmCount": "https://GilSantos22.github.io/ManufacturingMachineState/alarm_count.html",
+    "alarmLastMs": "https://GilSantos22.github.io/ManufacturingMachineState/alarm_last_ms.html",
+    "alarmTotalMs": "https://GilSantos22.github.io/ManufacturingMachineState/alarm_total_ms.html",
     
-    "counter": "https://GilSantos22.github.io/ManufacturingMachineState/contador.html",
+    "counter": "https://GilSantos22.github.io/ManufacturingMachineState/counter.html",
     "currentspeed": "https://GilSantos22.github.io/ManufacturingMachineState/currentspeed.html",
  
-    "state_off_count": "https://GilSantos22.github.io/ManufacturingMachineState/estado_off_count.html",
-    "state_off_ms": "https://GilSantos22.github.io/ManufacturingMachineState/estado_off_ms.html",
-    "state_on_count": "https://GilSantos22.github.io/ManufacturingMachineState/estado_on_count.html",
-    "state_on_ms": "https://GilSantos22.github.io/ManufacturingMachineState/estado_on_ms.html",
+    "stateOffCount": "https://GilSantos22.github.io/ManufacturingMachineState/estado_off_count.html",
+    "stateOffMs": "https://GilSantos22.github.io/ManufacturingMachineState/estado_off_ms.html",
+    "stateOnCount": "https://GilSantos22.github.io/ManufacturingMachineState/estado_on_count.html",
+    "stateOnMs": "https://GilSantos22.github.io/ManufacturingMachineState/estado_on_ms.html",
     
     "timestamp": "https://GilSantos22.github.io/ManufacturingMachineState/ts.html",
     
