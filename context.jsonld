@@ -4,24 +4,24 @@
     "id": "@id",
     "ngsi-ld": "https://uri.etsi.org/ngsi-ld/",
     
-    "ManufacturingMachineState": "https://GilSantos22.github.io/ManufacturingMachineState/ManufacturingMachineState.html",
+    "ManufacturingMachineState": "https://GilSantos22.github.io/ManufacturingMachineState/ManufacturingMachineState/ManufacturingMachineState.html",
     
-    "alarmCount": "https://GilSantos22.github.io/ManufacturingMachineState/alarmCount.html",
-    "alarmLastMs": "https://GilSantos22.github.io/ManufacturingMachineState/alarmLastMs.html",
-    "alarmTotalMs": "https://GilSantos22.github.io/ManufacturingMachineState/alarmTotalMs.html",
+    "alarmCount": "https://GilSantos22.github.io/ManufacturingMachineState/ManufacturingMachineState/alarmCount.html",
+    "alarmLastMs": "https://GilSantos22.github.io/ManufacturingMachineState/ManufacturingMachineState/alarmLastMs.html",
+    "alarmTotalMs": "https://GilSantos22.github.io/ManufacturingMachineState/ManufacturingMachineState/alarmTotalMs.html",
     
-    "counter": "https://GilSantos22.github.io/ManufacturingMachineState/counter.html",
-    "currentspeed": "https://GilSantos22.github.io/ManufacturingMachineState/currentspeed.html",
+    "counter": "https://GilSantos22.github.io/ManufacturingMachineState/ManufacturingMachineState/counter.html",
+    "currentspeed": "https://GilSantos22.github.io/ManufacturingMachineState/ManufacturingMachineState/currentSpeed.html",
  
-    "stateOffCount": "https://GilSantos22.github.io/ManufacturingMachineState/stateOffCount.html",
-    "stateOffMs": "https://GilSantos22.github.io/ManufacturingMachineState/stateOffMs.html",
-    "stateOnCount": "https://GilSantos22.github.io/ManufacturingMachineState/stateOnCount.html",
-    "stateOnMs": "https://GilSantos22.github.io/ManufacturingMachineState/stateOnMs.html",
+    "stateOffCount": "https://GilSantos22.github.io/ManufacturingMachineState/ManufacturingMachineState/stateOffCount.html",
+    "stateOffMs": "https://GilSantos22.github.io/ManufacturingMachineState/ManufacturingMachineState/stateOffMs.html",
+    "stateOnCount": "https://GilSantos22.github.io/ManufacturingMachineState/ManufacturingMachineState/stateOnCount.html",
+    "stateOnMs": "https://GilSantos22.github.io/ManufacturingMachineState/ManufacturingMachineState/stateOnMs.html",
     
-    "timestamp": "https://GilSantos22.github.io/ManufacturingMachineState/timestamp.html",
+    "timestamp": "https://GilSantos22.github.io/ManufacturingMachineState/ManufacturingMachineState/timestamp.html",
     
-    "ManufacturingController": "https://GilSantos22.github.io/ManufacturingMachineState/ManufacturingController.html",
-     "name": "https://GilSantos22.github.io/ManufacturingMachineState/ManufacturingController.html",
-    "brand": "https://GilSantos22.github.io/ManufacturingMachineState/ManufacturingController.html"
+    "ManufacturingController": "https://GilSantos22.github.io/ManufacturingMachineState/ManufacturingController/ManufacturingController.html",
+     "name": "https://GilSantos22.github.io/ManufacturingMachineState/ManufacturingController/ManufacturingController.html",
+    "brand": "https://GilSantos22.github.io/ManufacturingMachineState/ManufacturingController/ManufacturingController.html"
   }
   }
