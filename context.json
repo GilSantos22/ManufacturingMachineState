@@ -6,9 +6,9 @@
     
     "ManufacturingMachineState": "https://GilSantos22.github.io/ManufacturingMachineState/ManufacturingMachineState.html",
     
-    "alarmCount": "https://GilSantos22.github.io/ManufacturingMachineState/alarm_count.html",
-    "alarmLastMs": "https://GilSantos22.github.io/ManufacturingMachineState/alarm_last_ms.html",
-    "alarmTotalMs": "https://GilSantos22.github.io/ManufacturingMachineState/alarm_total_ms.html",
+    "alarmCount": "https://GilSantos22.github.io/ManufacturingMachineState/alarmCount.html",
+    "alarmLastMs": "https://GilSantos22.github.io/ManufacturingMachineState/alarmLastMs.html",
+    "alarmTotalMs": "https://GilSantos22.github.io/ManufacturingMachineState/alarmTotalMs.html",
     
     "counter": "https://GilSantos22.github.io/ManufacturingMachineState/counter.html",
     "currentspeed": "https://GilSantos22.github.io/ManufacturingMachineState/currentspeed.html",
