@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$schemaVersion": "0.0.1",
+  "$id": "https://GilSantos22.github.io/ManufacturingMachineState/ManufacturingMachineState/schema.json",
+  "title": "Smart Data Models - ManufacturingMachineState",
+  "description": "Data model representing the real-time operational state, production counters, and alarm telemetry of a manufacturing machine.",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/GSMA-Commons"
+    },
+    {
+      "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/Location-Commons"
+    },
+    {
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "ManufacturingMachineState"
+          ],
+          "description": "Property. NGSI Entity Type. It has to be ManufacturingMachineState"
+        },
+        "alarmCount": {
+          "type": "number",
+          "description": "Property. Total number of times the alarm system was triggered."
+        },
+        "alarmLastMs": {
+          "type": "number",
+          "description": "Property. Time duration of the most recent error/alarm occurrence."
+        },
+        "alarmTotalMs": {
+          "type": "number",
+          "description": "Property. Total accumulated time the machine was blocked in an error or alarm state."
+        },
+        "counter": {
+          "type": "number",
+          "description": "Property. Counts the quantity of viable product produced."
+        },
+        "currentSpeed": {
+          "type": "number",
+          "description": "Property. Current operating speed of the machine."
+        },
+        "stateOffCount": {
+          "type": "number",
+          "description": "Property. Counter of how many times the machine transitioned to the stopped state (OFF)."
+        },
+        "stateOffMs": {
+          "type": "number",
+          "description": "Property. Total accumulated time the machine was stopped (OFF)."
+        },
+        "stateOnCount": {
+          "type": "number",
+          "description": "Property. Counter of how many times the machine started its operation."
+        },
+        "stateOnMs": {
+          "type": "number",
+          "description": "Property. Total accumulated time of effective operation."
+        },
+        "timestamp": {
+          "type": "number",
+          "description": "Property. Timestamp representing the exact date and time when the record was emitted."
+        },
+        "plcId": {
+          "type": "string",
+          "description": "Relationship. Identifier of the associated PLC."
+        },
+        "machineId": {
+          "type": "string",
+          "description": "Relationship. Identifier of the associated Machine."
+        }
+      }
+    }
+  ],
+  "required": [
+    "id",
+    "type"
+  ]
+}
