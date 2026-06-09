@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$schemaVersion": "0.0.1",
+  "$id": "https://GilSantos22.github.io/ManufacturingMachineState/ManufacturingController/schema.json",
+  "title": "Smart Data Models - ManufacturingController",
+  "description": "Industrial control equipment (PLC) responsible for managing the machine.",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/GSMA-Commons"
+    },
+    {
+      "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/Location-Commons"
+    },
+    {
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "ManufacturingController"
+          ],
+          "description": "Property. NGSI Entity Type. It has to be ManufacturingController"
+        },
+        "name": {
+          "type": "string",
+          "description": "Property. Name of the controller."
+        },
+        "brand": {
+          "type": "string",
+          "description": "Property. Brand of the controller."
+        }
+      }
+    }
+  ],
+  "required": [
+    "id",
+    "type"
+  ]
+}
