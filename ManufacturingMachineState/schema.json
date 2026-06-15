@@ -6,12 +6,8 @@
   "description": "Data model representing the real-time operational state, production counters, and alarm telemetry of a manufacturing machine.",
   "type": "object",
   "allOf": [
-    {
-      "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/GSMA-Commons"
-    },
-    {
-      "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/Location-Commons"
-    },
+    
+     
     {
       "properties": {
         "type": {
