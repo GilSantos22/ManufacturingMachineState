@@ -6,8 +6,6 @@
   "description": "Data model representing the real-time operational state, production counters, and alarm telemetry of a manufacturing machine.",
   "type": "object",
   "allOf": [
-    
-     
     {
       "properties": {
         "type": {
