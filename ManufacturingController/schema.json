@@ -20,10 +20,14 @@
         },
         "name": {
           "type": "string",
+          "minLength": 1,
+          "maxLength": 256,
           "description": "Property. Name of the controller."
         },
         "brand": {
           "type": "string",
+          "minLength": 1,
+          "maxLength": 256,
           "description": "Property. Brand of the controller."
         }
       }
