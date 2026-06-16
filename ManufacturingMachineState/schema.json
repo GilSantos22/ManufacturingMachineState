@@ -7,6 +7,9 @@
   "type": "object",
   "allOf": [
     {
+      "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/GSMA-Commons"
+    },
+    {
       "properties": {
         "type": {
           "type": "string",
@@ -104,6 +107,9 @@
   ],
   "required": [
     "id",
-    "type"
+    "type",
+    "machine",
+    "controller",
+    "timestamp"
   ]
 }
