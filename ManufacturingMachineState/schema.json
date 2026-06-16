@@ -17,50 +17,86 @@
         },
         "alarmCount": {
           "type": "number",
+          "minimum": 0,
           "description": "Property. Total number of times the alarm system was triggered."
         },
         "alarmLastMs": {
           "type": "number",
+          "minimum": 0,
           "description": "Property. Time duration of the most recent error/alarm occurrence."
         },
         "alarmTotalMs": {
           "type": "number",
+          "minimum": 0,
           "description": "Property. Total accumulated time the machine was blocked in an error or alarm state."
         },
         "counter": {
           "type": "number",
+          "minimum": 0,
           "description": "Property. Counts the quantity of viable product produced."
         },
         "currentSpeed": {
           "type": "number",
+          "minimum": 0,
           "description": "Property. Current operating speed of the machine."
         },
         "stateOffCount": {
           "type": "number",
+          "minimum": 0,
           "description": "Property. Counter of how many times the machine transitioned to the stopped state (OFF)."
         },
         "stateOffMs": {
           "type": "number",
+          "minimum": 0,
           "description": "Property. Total accumulated time the machine was stopped (OFF)."
         },
         "stateOnCount": {
           "type": "number",
+          "minimum": 0,
           "description": "Property. Counter of how many times the machine started its operation."
         },
         "stateOnMs": {
           "type": "number",
+          "minimum": 0,
           "description": "Property. Total accumulated time of effective operation."
         },
         "timestamp": {
           "type": "number",
+          "minimum": 0,
           "description": "Property. Timestamp representing the exact date and time when the record was emitted."
         },
-        "plcId": {
-          "type": "string",
+        "controller": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 256,
+              "pattern": "^[\\w\\-\\.\\{\\}\\$\\+\\*\\[\\]`|~^@!,:\\\\]+$",
+              "description": "Property. Identifier format of any NGSI entity"
+            },
+            {
+              "type": "string",
+              "format": "uri",
+              "description": "Property. Identifier format of any NGSI entity"
+            }
+          ],
           "description": "Relationship. Identifier of the associated PLC."
         },
-        "machineId": {
-          "type": "string",
+        "machine": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 256,
+              "pattern": "^[\\w\\-\\.\\{\\}\\$\\+\\*\\[\\]`|~^@!,:\\\\]+$",
+              "description": "Property. Identifier format of any NGSI entity"
+            },
+            {
+              "type": "string",
+              "format": "uri",
+              "description": "Property. Identifier format of any NGSI entity"
+            }
+          ],
           "description": "Relationship. Identifier of the associated Machine."
         }
       }
